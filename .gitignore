@@ -1,0 +1,15 @@
+# .NET build
+bin/
+obj/
+TestResults/
+.vs/
+*.user
+*.suo
+
+# IDEs
+.idea/
+.vscode/
+
+# Logs & local artifacts
+*.log
+logs/
