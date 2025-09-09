@@ -1,7 +1,7 @@
 # folder-synchronizer
 Utility to keep a replica folder identical to a source folder
 
-- Synchronizes two folders named "source" and "replica.
+- Synchronizes two folders named "source" and "replica".
 
 - The program maintain a full, identical copy of source folder at replica folder.
 
@@ -12,3 +12,7 @@ Utility to keep a replica folder identical to a source folder
     - If replica folder has extra files not present in source, they are removed.
 
 - File creation, copying and removal operations are logged to a file and to the console output.
+
+- Folder paths, log file path and synchronization interval should be provided using the command line arguments.
+    - example: dotnet run -- "C:\Users\user\Documents\source" "C:\Users\user\Documents\replica" "C:\logs\sync.log" 60
+- The time argument represent the seconds.
