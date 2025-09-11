@@ -13,3 +13,6 @@ TestResults/
 # Logs & local artifacts
 *.log
 logs/
+
+FolderSync/replica_folder/
+FolderSync/source_folder/
