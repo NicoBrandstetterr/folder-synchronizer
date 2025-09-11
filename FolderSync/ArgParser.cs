@@ -74,4 +74,11 @@ namespace FolderSync
         }
     }
 
+
+    public record AppConfig(
+        string SourceFolder,
+        string ReplicaFolder,
+        string LogFilePath,
+        int SyncInterval
+    );
 }
