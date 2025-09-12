@@ -19,4 +19,4 @@ Utility to keep a replica folder identical to a source folder
         - The time argument represent the seconds.
 
 ## UML Class Diagram
-![alt text](image.png)
+![alt text](uml_class.png)
