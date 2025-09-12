@@ -17,3 +17,6 @@ Utility to keep a replica folder identical to a source folder
 - Folder paths, log file path and synchronization interval should be provided using the command line arguments.
     - example: dotnet run -- "C:\Users\user\Documents\source" "C:\Users\user\Documents\replica" "C:\logs\sync.log" 60
         - The time argument represent the seconds.
+
+## UML Class Diagram
+![alt text](image.png)
